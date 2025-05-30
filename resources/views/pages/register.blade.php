@@ -30,7 +30,7 @@
 <div class="register-box">
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="/" class="h1"><b>Gym Management System</b></a>
+        <h1><b>Gym Management System</b></h1>
     </div>
     <div class="card-body">
     @if(session()->has("success"))
@@ -166,7 +166,7 @@
     // Fade out success and error messages after 10 seconds (10000 ms)
     setTimeout(function() {
       $(".alert").fadeOut('slow');
-    }, 10000); // 10000 ms = 10 seconds
+    }, 5000); // 10000 ms = 10 seconds
 
 $(function () {
   $.validator.setDefaults({

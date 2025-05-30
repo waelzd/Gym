@@ -44,7 +44,7 @@
       <!-- /.login-logo -->
       <div class="card card-outline card-primary">
         <div class="card-header text-center">
-          <a href="/" class="h1"><b>Gym Management System</b></a>
+          <h1><b>Gym Management System</b></h1>
         </div>
         <div class="card-body">
           @if(session()->has("success"))
